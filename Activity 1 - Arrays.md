@@ -1,6 +1,6 @@
 ## Tasks
 
-1. Explain how to create an array of 100 elements. You can choose any data type of your choice. (requires C++ code) - **1 pts**
+### 1. Explain how to create an array of 100 elements. You can choose any data type of your choice. (requires C++ code) - **1 pts**
 
 
 To make an array, you first specify the data type, then the name of the array, and then the size of the array in square brackets.
@@ -13,7 +13,7 @@ int main() {
 }
 ```
 
-2. What will be the size of each element of an array. (requires C++ code) - **1 pts**
+### 2. What will be the size of each element of an array. (requires C++ code) - **1 pts**
 
 The elements of an array each have the size of their data type. If I made an array of integers, each element would be the size of an integer, or 4 bytes. You can use the sizeof() function to find the size of an element.
 ```cpp
@@ -26,7 +26,7 @@ int main() {
 }
 ``` 
 
-3. For an array containing 100 elements, provide the number of steps the following operations would take: (theoretical) - **6 pts**
+### 3. For an array containing 100 elements, provide the number of steps the following operations would take: (theoretical) - **6 pts**
 - Reading
 - Searching for a value not contained within the array
 - Insertion at the beginning of the array
@@ -46,11 +46,11 @@ e) Deleting an element at the beginning would take 100 steps, since you would ha
 
 f) Deleting an element at the end of the array would take one step, since you just have to remove the last element.
 
-4. Normally the search operation in an array looks for the first instance of a given value. But sometimes we may want to look for every instance of a given value. For example, say we want to count how many times the value “apple” is found inside an array. How many steps would it take to find all the “apples”? Give your answer in terms of N. (theoretical) - **1 pts**
+### 4. Normally the search operation in an array looks for the first instance of a given value. But sometimes we may want to look for every instance of a given value. For example, say we want to count how many times the value “apple” is found inside an array. How many steps would it take to find all the “apples”? Give your answer in terms of N. (theoretical) - **1 pts**
 
 To find every instance of a value in an array, you would have to check every single element in the array, so it would take N steps.
 
-5. Research how to find the memory address of an array. You can use any programming language of your choice. (requires code) **1 pts**
+### 5. Research how to find the memory address of an array. You can use any programming language of your choice. (requires code) **1 pts**
 
 I can use the & operator to find the memory address of an array. Finding the memory address of the first element in an array is the same as finding the memory address of the array itself.
 
