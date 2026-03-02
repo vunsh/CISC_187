@@ -101,4 +101,7 @@ On average, the loop stops halfway through.
 Worst case: O(N)  
 If "X" is not present, the loop still checks all characters
 
+
+video: https://youtu.be/zghQLmXyTZg
+
 This improves efficiency in the best case scenarios at least, while the average and worst remain closer to O(N).
